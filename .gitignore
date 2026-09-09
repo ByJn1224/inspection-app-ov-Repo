@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- 프로젝트 전용 (배포 불필요) ---
+# 변환 중간 산출물 (113MB, GitHub 100MB 제한 초과)
+model/leather_saved_model/
+# .keras 원본 (런타임에 안 씀, OpenVINO IR만 배포)
+weights/

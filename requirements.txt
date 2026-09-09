@@ -1,0 +1,7 @@
+# openvino_infer_ov.py (OpenVINO IR / Streamlit) 배포용 패키지
+# 사용 라이브러리: streamlit, openvino, numpy, pandas, pillow(PIL)
+streamlit==1.63.0
+openvino==2026.3.1
+numpy==1.26.4
+pandas==3.0.5
+pillow==12.3.0
