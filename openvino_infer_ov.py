@@ -98,7 +98,7 @@ def main():
     if pil_img is None:
         return
 
-    st.image(pil_img, caption="입력 이미지", use_column_width=True)
+    st.image(pil_img, caption="입력 이미지", use_container_width=True)
 
     if st.button("추론 실행", type="primary"):
         with st.spinner("추론 중..."):
